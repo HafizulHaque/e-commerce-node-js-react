@@ -1,0 +1,8 @@
+# ignore any node_modules in nested directories
+**/node_modules/
+
+# ignore any env file in nested directories
+**/.env*
+
+# gitignore - frontend 
+frontend/dist
