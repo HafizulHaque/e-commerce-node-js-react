@@ -9,16 +9,16 @@ generator client {
 }
 
 // stage setup 
-datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
-}
+// datasource db {
+//   provider = "sqlite"
+//   url      = "file:./dev.db"
+// }
 
 // production setup 
-// datasource db {
-//   provider = "postgresql"
-//   url      = env("DATABASE_URL")
-// }
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
 
 model User {
   id Int @id @default(autoincrement())

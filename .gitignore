@@ -2,7 +2,7 @@
 **/node_modules/
 
 # ignore any env file in nested directories
-**/.env*
+**/.env
 
 # gitignore - frontend 
 frontend/dist
